@@ -1,0 +1,11 @@
+<template>
+    <lightning-card> 
+    <div class="stopwatch">
+        <span>{elapsedTime}</span>
+        <div class="buttons">
+            <lightning-button label={startStopLabel} onclick={toggleStartStop}></lightning-button>
+            <lightning-button label="Reset" onclick={reset}></lightning-button>
+        </div>
+    </div>
+</lightning-card>
+</template>
